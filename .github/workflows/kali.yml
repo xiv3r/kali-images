@@ -19,10 +19,12 @@ jobs:
       run: |
         mkdir -p downloads
         cd downloads
-        wget 
-        wget
-        wget
-        wget
+        wget https://github.com/leeboby/kali-images/releases/download/20240711/kali-linux-2024.2-opizero2w-minimal-arm64.img.xz
+        wget https://github.com/leeboby/kali-images/releases/download/20240711/kali-linux-2024.2-opizero2w-xfce-arm64.img.xzaa
+        wget https://github.com/leeboby/kali-images/releases/download/20240711/kali-linux-2024.2-opizero2w-xfce-arm64.img.xzab
+        wget https://github.com/leeboby/kali-images/releases/download/20240711/kali-linux-2024.2-opizero3-minimal-arm64.img.xz
+        wget https://github.com/leeboby/kali-images/releases/download/20240711/kali-linux-2024.2-opizero3-xfce-arm64.img.xzaa
+        wget https://github.com/leeboby/kali-images/releases/download/20240711/kali-linux-2024.2-opizero3-xfce-arm64.img.xzab
         
     - name: Determine release tag
       id: get_tag
